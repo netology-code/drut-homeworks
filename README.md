@@ -8,13 +8,13 @@
 
 Любые вопросы по решению задач задавайте в канале группы.
 
-4.1. [Виды протоколов динамической маршрутизации]()
+4.1. [Виды протоколов динамической маршрутизации](https://github.com/netology-code/drut-homeworks/blob/main/4-01.md)
 
 4.2. [Протокол OSPF. Построение соседства, машина состояний, LSDB.](https://github.com/netology-code/drut-homeworks/blob/main/4-02/4-02.md)
 
-4.3. [Протокол OSPF. Метрика, зоны и суммаризация.]()
+4.3. [Протокол OSPF. Метрика, зоны и суммаризация.](https://github.com/netology-code/drut-homeworks/blob/main/4-03/4-03.md)
 
-4.4. [Протокол OSPF. Настройка и диагностика.]()
+4.4. [Протокол OSPF. Настройка и диагностика.](https://github.com/netology-code/drut-homeworks/blob/main/4-04/4-04.md)
 
 4.5. [Маршрутизация в сети Интернет. Автономные системы]()
 
