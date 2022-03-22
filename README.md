@@ -18,10 +18,10 @@
 
 4.5. [Маршрутизация в сети Интернет. Автономные системы](https://github.com/netology-code/drut-homeworks/blob/main/4-05.md)
 
-4.6. [BGP в корпоративных сетях. Построение соседства, машина состояний, типы сообщений.]()
+4.6. [BGP в корпоративных сетях. Построение соседства, машина состояний, типы сообщений.](https://github.com/netology-code/drut-homeworks/blob/main/4-06.md)
 
-4.7. [iBGP и eBGP. Методы управления трафиком.]()
+4.7. [iBGP и eBGP. Методы управления трафиком.](https://github.com/netology-code/drut-homeworks/blob/main/4-07.md)
 
-4.8. [Методы поиска и устранения неисправностей, связанных с отсутствием связности.]()
+4.8. [Методы поиска и устранения неисправностей, связанных с отсутствием связности.](https://github.com/netology-code/drut-homeworks/blob/main/4-08.md)
 
 4.9. [Передача маршрутной информации между различными протоколами маршрутизации](https://github.com/netology-code/drut-homeworks/blob/main/4-09.md)
