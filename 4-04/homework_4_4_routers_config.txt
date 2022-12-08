@@ -73,9 +73,9 @@ R7:
 	R7(config)#interface Fa0/1.1
 	R7(config-if)#ip address 172.16.1.7 255.255.255.0	
 	R7(config)#interface Fa0/1.107
-	R7(config-if)#ip address 172.16.7.7 255.255.255.0
+	R7(config-if)#ip address 172.16.7.7 255.255.255.128
 	R7(config)#interface Fa0/1.177
-	R7(config-if)#ip address 172.16.77.7 255.255.255.0	
+	R7(config-if)#ip address 172.16.77.7 255.255.255.128	
 	R7(config)#router ospf 1
 	R7(config-router)#network 172.16.1.0 0.0.0.255 area 7
 	R7(config-router)#network 172.16.7.0 0.0.0.255 area 7
