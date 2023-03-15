@@ -3,11 +3,11 @@ R1:
 	R1(config-if)#ip address 192.168.123.1 255.255.255.0
 	R1(config)#interface Fa0/1.100
 	R1(config-if)#ip address 10.10.0.1 255.255.255.0
-	R1(config)#interface Fa0/0.101
+	R1(config)#interface Fa0/1.101
 	R1(config-if)#ip address 10.10.1.1 255.255.255.0
-	R1(config)#interface Fa0/0.102
+	R1(config)#interface Fa0/1.102
 	R1(config-if)#ip address 10.10.2.1 255.255.255.0
-	R1(config)#interface Fa0/0.103
+	R1(config)#interface Fa0/1.103
 	R1(config-if)#ip address 10.10.3.1 255.255.255.0
 	R1(config)#router ospf 1
 	R1(config-router)#network 192.168.123.0 0.0.0.255 area 0
