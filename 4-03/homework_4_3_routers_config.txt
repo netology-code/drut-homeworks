@@ -49,7 +49,7 @@ R5:
        R5(config)#interface Gi0/1
        R5(config-if)#ip address 192.168.15.5 255.2555.255.0
        R5(config)#router ospf 1
-       R5(config-router)#network 172.16.1.0 0.0.0.255 area 3
+       R5(config-router)#network 172.16.1.0 0.0.0.255 area 0
        R5(config-router)#network 192.168.15.0 0.0.0.255 area 0
 
 R6:
