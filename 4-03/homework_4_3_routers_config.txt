@@ -13,7 +13,7 @@ R2:
 	R2(config-if)#ip address 192.168.24.2 255.255.255.0
 	R2(config)#router ospf 1
 	R2(config-router)#network 192.168.123.0 0.0.0.255 area 0
-	R2(config-router)#network 192.168.168.24.0 0.0.0.255 area 3
+	R2(config-router)#network 192.168.24.0 0.0.0.255 area 3
 
 R3:
 	R3(config)#interface Gi0/0
