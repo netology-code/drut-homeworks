@@ -1,4 +1,5 @@
 R1:
+
 	R1(config)#interface Gi0/0
 	R1(config-if)#ip address 192.168.123.1 255.255.255.0
 	R1(config)#interface Gi0/1
@@ -68,3 +69,75 @@ R7:
 	R7(config)#router ospf 1
 	R7(config-router)#network 7.7.7.7 0.0.0.0 area 7
 	R7(config-router)#network 192.168.67.0 0.0.0.255 area 7
+=======
+       R1(config)#interface Gi0/0
+       R1(config-if)#ip address 192.168.123.1 255.255.255.0
+       R1(config)#interface Gi0/1
+       R1(config-if)#ip address 192.168.15.1 255.255.255.0
+       R1(config)#router ospf 1
+       R1(config-router)#network 192.168.123.0 0.0.0.255 area 0
+       R1(config-router)#network 192.168.15.0 0.0.0.255 area 0
+
+R2:
+       R2(config)#interface Gi0/0
+       R2(config-if)#ip address 192.168.123.2 255.255.255.0
+       R2(config)#interface Gi0/2
+       R2(config-if)#ip address 192.168.24.2 255.255.255.0
+       R2(config)#router ospf 1
+       R2(config-router)#network 192.168.123.0 0.0.0.255 area 0
+       R2(config-router)#network 172.16.1.0 0.0.0.255 area 3
+
+R3:
+       R3(config)#interface Gi0/0
+       R3(config-if)#ip address 192.168.123.3 255.255.255.0
+       R3(config)#interface Gi0/1
+       R3(config-if)#ip address  192.168.34.3 255.255.255.0
+       R3(config)#interface Gi0/2
+       R3(config-if)#ip address 192.168.36.3 255.255.255.0
+       R3(config)#router ospf 1
+       R3(config-router)#network 192.168.123.0 0.0.0.255 area 0
+       R3(config-router)#network 192.168.36.0 0.0.0.255 area 7
+       R3(config-router)#network 172.16.1.0 0.0.0.255 area 3
+
+R4:
+       R4(config)#interface Loopback 4
+       R4(config-if)#ip address 4.4.4.4 255.255.255.255
+       R4(config)#interface Gi0/0
+       R4(config-if)#ip address 172.16.1.4 255.255.255.0
+       R4(config)#interface Gi0/1
+       R4(config-if)#ip address 192.168.34.4 255.2555.255.0
+       R4(config)#interface Gi0/2
+       R4(config-if)#ip address 192.168.24.4 255.2555.255.0
+       R4(config)#router ospf 1
+       R4(config-router)#network 4.4.4.4 0.0.0.0 area 3
+       R4(config-router)#network 172.16.1.0 0.0.0.255 area 3
+       R4(config-router)#network 192.168.24.0 0.0.0.255 area 3
+       R4(config-router)#network 192.168.34.0 0.0.0.255 area 3
+
+R5:
+       R5(config)#interface Gi0/0
+       R5(config-if)#ip address 172.16.1.5 255.255.255.0
+       R5(config)#interface Gi0/1
+       R5(config-if)#ip address 192.168.15.5 255.2555.255.0
+       R5(config)#router ospf 1
+       R5(config-router)#network 172.16.1.0 0.0.0.255 area 0
+       R5(config-router)#network 192.168.15.0 0.0.0.255 area 0
+
+R6:
+       R6(config)#interface Gi0/0
+       R6(config-if)#ip address 192.168.67.6 255.255.255.0
+       R6(config)#interface Gi0/2
+       R6(config-if)#ip address 192.168.36.6 255.2555.255.0
+       R6(config)#router ospf 1
+       R6(config-router)#network 192.168.36.0 0.0.0.255 area 7
+       R6(config-router)#network 192.168.67.0 0.0.0.255 area 7
+
+R7:
+       R7(config)#interface Loopback 7
+       R7(config-if)#ip address 7.7.7.7 255.255.255.255
+       R7(config)#interface Gi0/0
+       R7(config-if)#ip address 192.168.67.7 255.2555.255.0
+       R7(config)#router ospf 1
+       R7(config-router)#network 7.7.7.7 0.0.0.0 area 7
+       R7(config-router)#network 192.168.67.0 0.0.0.255 area 7
+
