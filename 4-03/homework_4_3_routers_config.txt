@@ -6,6 +6,7 @@ R1:
 	R1(config-if)#ip address 192.168.15.1 255.255.255.0
 	R1(config)#router ospf 1
 	R1(config-router)#network 192.168.123.0 0.0.0.255 area 0
+	R1(config-router)#network 192.168.15.0 0.0.0.255 area 0
 
 R2:
 	R2(config)#interface Gi0/0
